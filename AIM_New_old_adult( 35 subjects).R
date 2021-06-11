@@ -10,7 +10,7 @@ library(dplyr)
 
 
 ##set working directory
-setwd("D:/AIM project/Aim_New_Data/AIM new project")
+setwd("/Users/davidwei/R")
 
 ##read in data, select relevant columns and rows, and merge files
 #load the study data
