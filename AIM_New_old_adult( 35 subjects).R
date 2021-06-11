@@ -1,5 +1,8 @@
 rm(list=ls())
-
+install.packages('tidyr')
+install.packages('ez')
+install.packages('ggplot2')
+install.packages('dplyr')
 library(tidyr)
 library(ez)
 library(ggplot2)
