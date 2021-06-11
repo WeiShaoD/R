@@ -1,8 +1,12 @@
 
 # Load the readr, ggplot2, and dplyr packages
+install.packages('readr')
+install.packages('ggplot2')
+install.packages('dplyr')
 library(readr)
 library(ggplot2)
 library(dplyr)
+setwd("/Users/davidwei/R/dataset")
 
 # Read datasets/confirmed_cases_worldwide.csv into confirmed_cases_worldwide
 confirmed_cases_worldwide <- read_csv("datasets/confirmed_cases_worldwide.csv")
